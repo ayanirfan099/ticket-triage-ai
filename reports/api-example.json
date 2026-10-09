@@ -1,0 +1,41 @@
+{
+  "request": {
+    "text": "My card was charged twice for the monthly subscription"
+  },
+  "response": {
+    "label": "billing",
+    "suggested_label": "billing",
+    "needs_review": false,
+    "probability": 0.73552,
+    "probability_note": "Uncalibrated model output, not a guarantee of correctness",
+    "reason": "classified",
+    "scores": {
+      "account": 0.08641,
+      "billing": 0.73552,
+      "sales": 0.08732,
+      "technical": 0.09075
+    },
+    "supporting_terms": [
+      {
+        "term": "for the",
+        "contribution": 0.19546
+      },
+      {
+        "term": "subscription",
+        "contribution": 0.19325
+      },
+      {
+        "term": "card",
+        "contribution": 0.18197
+      },
+      {
+        "term": "charged",
+        "contribution": 0.13811
+      },
+      {
+        "term": "my",
+        "contribution": 0.12116
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "dataset": "80 hand-authored synthetic tickets; 64 train / 16 held-out",
+  "warning": "Tiny illustrative benchmark, not evidence of real support-desk accuracy",
+  "accuracy": 0.9375,
+  "classification_report": {
+    "account": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "billing": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "sales": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "technical": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "accuracy": 0.9375,
+    "macro avg": {
+      "precision": 0.95,
+      "recall": 0.9375,
+      "f1-score": 0.9365079365079365,
+      "support": 16.0
+    },
+    "weighted avg": {
+      "precision": 0.95,
+      "recall": 0.9375,
+      "f1-score": 0.9365079365079365,
+      "support": 16.0
+    }
+  },
+  "labels": [
+    "account",
+    "billing",
+    "sales",
+    "technical"
+  ],
+  "confusion_matrix": [
+    [
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "baseline_accuracy": 0.25,
+  "review_threshold": 0.45,
+  "coverage": 0.8125,
+  "accepted_accuracy": 1.0,
+  "train_rows": 64,
+  "test_rows": 16
+}
