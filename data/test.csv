@@ -1,0 +1,17 @@
+id,text,label
+test-billing-1,I was billed two times for one renewal,billing
+test-billing-2,Where can I download a tax receipt for my payment,billing
+test-billing-3,The bank rejected my subscription charge,billing
+test-billing-4,Please return the money for the order I cancelled,billing
+test-account-1,I need to recover my login because I lost my password,account
+test-account-2,My email verification link is no longer valid,account
+test-account-3,Can another administrator become the owner of our account,account
+test-account-4,I replaced my phone and lost the two factor codes,account
+test-technical-1,Every attempt to export my report produces a blank document,technical
+test-technical-2,The mobile application stops responding during upload,technical
+test-technical-3,Our integration requests keep returning server errors,technical
+test-technical-4,The dashboard takes several minutes to load the charts,technical
+test-sales-1,Our company wants a demonstration before choosing a plan,sales
+test-sales-2,Please provide an enterprise price quote for fifty seats,sales
+test-sales-3,Can you explain the features in the premium package,sales
+test-sales-4,We would like to discuss an annual contract with sales,sales

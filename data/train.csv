@@ -1,0 +1,65 @@
+id,text,label
+train-billing-1,My card was charged twice for the monthly subscription,billing
+train-billing-2,The invoice shows the wrong billing address,billing
+train-billing-3,Please refund my accidental payment,billing
+train-billing-4,The checkout keeps declining my credit card,billing
+train-billing-5,I need a receipt for the last payment,billing
+train-billing-6,How do I update the payment method on my subscription,billing
+train-billing-7,There is an unexpected charge on my bill,billing
+train-billing-8,My refund has not arrived in my bank account,billing
+train-billing-9,The price on the invoice does not match the plan,billing
+train-billing-10,Can you explain the tax charged on my receipt,billing
+train-billing-11,I cancelled but you still billed my credit card,billing
+train-billing-12,Our subscription payment failed this month,billing
+train-billing-13,Please send a corrected invoice for accounting,billing
+train-billing-14,I want to dispute the extra fee on my bill,billing
+train-billing-15,When will you process the refund for the cancellation,billing
+train-billing-16,The annual billing discount is missing from my invoice,billing
+train-account-1,I forgot my password and cannot log in,account
+train-account-2,The password reset email never arrives,account
+train-account-3,Please change the email address on my account,account
+train-account-4,My account is locked after too many login attempts,account
+train-account-5,I lost access to my two factor authentication device,account
+train-account-6,How do I delete my user account permanently,account
+train-account-7,I cannot verify my email address,account
+train-account-8,The sign in page says my credentials are incorrect,account
+train-account-9,Can I change my profile display name,account
+train-account-10,Please help recover access to my old account,account
+train-account-11,The verification code expires before I can sign in,account
+train-account-12,My username is no longer recognized at login,account
+train-account-13,How do I enable two factor security for my account,account
+train-account-14,Please remove a former employee from our workspace,account
+train-account-15,I need to add a new member to our team account,account
+train-account-16,How can I transfer account ownership to another admin,account
+train-technical-1,The app crashes every time I open a large file,technical
+train-technical-2,The dashboard is blank after the latest update,technical
+train-technical-3,Uploading a document fails with a server error,technical
+train-technical-4,The API returns a 500 error for every request,technical
+train-technical-5,Search results never finish loading,technical
+train-technical-6,The export feature produces an empty file,technical
+train-technical-7,The mobile app freezes on the loading screen,technical
+train-technical-8,I cannot save changes because the save button is broken,technical
+train-technical-9,The browser shows an error when I upload an image,technical
+train-technical-10,The integration stopped syncing records yesterday,technical
+train-technical-11,Notifications are delayed by several hours,technical
+train-technical-12,The download link returns a not found error,technical
+train-technical-13,The chart displays incorrect values after refreshing,technical
+train-technical-14,Video playback stutters and then crashes the app,technical
+train-technical-15,The API endpoint times out during data synchronization,technical
+train-technical-16,The application uses too much memory and becomes slow,technical
+train-sales-1,Can you send a quote for an enterprise plan,sales
+train-sales-2,I would like to book a product demo for my team,sales
+train-sales-3,Do you offer volume discounts for large companies,sales
+train-sales-4,Which plan includes single sign on for our organization,sales
+train-sales-5,Can we schedule a call with your sales team,sales
+train-sales-6,I want to compare the business and enterprise plans,sales
+train-sales-7,Do you offer a free trial before we purchase,sales
+train-sales-8,We need pricing for one hundred employee seats,sales
+train-sales-9,Can I get a proposal for an annual enterprise contract,sales
+train-sales-10,Which features are included in the premium package,sales
+train-sales-11,Is there a discount for educational institutions,sales
+train-sales-12,We are evaluating vendors and want a demonstration,sales
+train-sales-13,What support is included with your business plan,sales
+train-sales-14,Can your product meet our procurement requirements,sales
+train-sales-15,I need an enterprise license quote for our company,sales
+train-sales-16,Who can explain the available plans before we buy,sales
