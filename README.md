@@ -4,6 +4,13 @@ Route support requests to **billing**, **account**, **technical** or **sales**, 
 
 This project demonstrates an end-to-end NLP baseline: validated data, train-only text fitting, a classifier, explanations, a JSON API, a held-out evaluation and regression tests. It does not call an LLM.
 
+[![CI](https://github.com/ayanirfan099/ticket-triage-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/ayanirfan099/ticket-triage-ai/actions/workflows/tests.yml)
+
+
+## Executed example
+
+`python app.py predict --text "My card was charged twice for the monthly subscription"` routes the bundled-demo example to `billing` with `needs_review=false`. The [actual JSON transcript](docs/prediction-example.json) includes uncalibrated scores and supporting terms; it is not a claim of accuracy on real support traffic.
+
 ## Architecture
 
 ```mermaid
@@ -92,4 +99,4 @@ python app.py evaluate
 
 The dependencies are pinned to the versions tested for this project, not advertised as the newest versions. After the first dependency installation, the bundled examples run offline. No paid API keys or external model downloads are needed.
 
-The lightweight HTTP server is for local demonstrations. It binds to localhost, accepts JSON only, limits request size and does not log request bodies. Authentication, production serving, rate limiting and operational monitoring must be added before public deployment. The included GitHub Actions workflow runs tests and evaluation when pushed to a repository; that remote workflow has not run yet.
+The lightweight HTTP server is for local demonstrations. It binds to localhost, accepts JSON only, limits request size and does not log request bodies. Authentication, production serving, rate limiting and operational monitoring must be added before public deployment. The included GitHub Actions workflow runs tests and evaluation when pushed to a repository; check the linked Actions badge for current remote status.
