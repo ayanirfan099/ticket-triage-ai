@@ -1,4 +1,4 @@
-# Ticket Triage AI
+# Support Ticket Triage with Human Review
 
 Route support requests to **billing**, **account**, **technical** or **sales**, with a human-review fallback for uncertain or out-of-vocabulary inputs.
 
